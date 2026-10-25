@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>AI Resume Analyzer</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">ResumeAI</div>
+            <nav>
+                <a href="#">Home</a> 
+                <a href="#">Features</a>
+                <a href="#">About</a>
+            </nav>
+            <button class="login-btn">Login</button>
+        </header>
+        <main>
+            <section class="hero">
+                <p class="badge">AI Powered Resume Analysis</p>
+                <h1> Make  Your Resume
+                <span>Job-Ready.</span>
+            </h1>
+            <p class="hero-text">
+                Analyze your resume against any job description and discover the skiils you need to stand out.
+            </p>
+            <button class="primary-btn analyze-btn">Analyze My Resume</button>
+        </section>
+        <section class="analyzer">
+            <div class="card">
+                <h2> your resume</h2>
+                <p>Upload your resume to get started.</p>
+                <div class="upload-box">
+    <div class="upload-icon"></div>
+    <h3>Upload Resume</h3>
+    <p>PDF, DOC, DOCX</p>
+    <input type="file" id="resumeFile" accept=".pdf,.doc,.docx">
+    <label for="resumeFile" class="secondary-btn">
+        Choose File
+    </label>
+    <p id="filename"></p>
+</div>
+</div>
+</div>
+            <div class="card">
+                <h2>Job Description</h2>
+                <p>Paste the job description you're applying for.</p>
+                <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea>
+<button class="primary-btn analyze-btn">Analyze resume</button>
+            </div>
+        </section>
+    </main>
+<footer>
+    <p>@ 2026 ResumeAI.Built with AI& Full-Stack Technology</p>
+</footer>
+<script src="script.js"></script>
+    </body>
+</html>
